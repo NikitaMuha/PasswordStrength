@@ -1,0 +1,45 @@
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+  }
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.sections {
+    min-width: 90px;
+    max-width: 18vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.section {
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  
+.gray {
+    background-color: gray;
+}
+.yellow {
+    background-color: #EED302;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: #0CEE02;
+}
+
